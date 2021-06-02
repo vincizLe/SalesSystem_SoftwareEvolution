@@ -6,3 +6,8 @@ notifications:
   email: jmayta17@hotmail.com
 before_install:
   - chmod +x mvnw
+deploy:
+  app: system-sales-app
+  provider: heroku
+  api_key:
+    secure: $HEROKU_API_KEY
