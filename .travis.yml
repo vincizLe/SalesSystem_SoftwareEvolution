@@ -1,0 +1,8 @@
+language: java
+jdk:
+  - openjdk15
+script: "./mvnw clean install"
+notifications:
+  email: u2018226416@upc.edu.pe
+before_install:
+  - chmod +x mvnw

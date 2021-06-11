@@ -18,7 +18,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="entityManagerFactory" />
-          <factory-entry name="sale-system-spring" />
+          <factory-entry name="sale-system-spring" value="d199f779-25c6-4a12-86d3-b1a5ec718fe5" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
