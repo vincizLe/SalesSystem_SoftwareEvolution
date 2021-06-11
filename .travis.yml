@@ -2,7 +2,6 @@ language: java
 jdk:
   - openjdk15
 script: "./mvnw clean install"
-  
 notifications:
   email: u201822641@upc.edu.pe
 before_install:
