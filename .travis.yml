@@ -1,8 +1,8 @@
 language: java
 jdk:
-  - openjdk8
+  - openjdk15
 script: "./mvnw clean install"
 notifications:
-  email: u2018226416@upc.edu.pe
+  email: u201822641@upc.edu.pe
 before_install:
   - chmod +x mvnw
